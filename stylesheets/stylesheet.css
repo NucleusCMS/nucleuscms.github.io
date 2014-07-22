@@ -313,6 +313,9 @@ Full-Width Styles
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  margin-top:0;
+  margin-bottom:0;
+  letter-spacing:1px;
 }
 
 #downloads {
