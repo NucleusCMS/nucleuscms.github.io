@@ -22,7 +22,7 @@
           <a id="forkme_banner" href="https://github.com/NucleusCMS/NucleusCMS">View on GitHub</a>
 
           <h1 id="project_title">NucleusCMS@SalvageProject</h1>
-          <h2 id="project_tagline">Nucleus CMS can help you achieve your goals.</h2>
+          <h2 id="project_tagline">Sunrise again! NucleusCMS can help you achieve your goals.</h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/NucleusCMS/NucleusCMS/archive/master.zip">Download this project as a .zip file</a>
@@ -34,6 +34,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+      <img src="images/nc.png" class="liquid" style="border:1px solid #ccc;padding:0;" />
 <div style="background-color:#fff;padding:1em;border:1px solid #ddd;border-radius:4px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)">
 <h3><a name="version-history" class="anchor" href="#version-history">
 <span class="octicon octicon-link"></span>
@@ -41,7 +42,7 @@
 		<strong>Nucleus v3.66 (July 22, 2014)</strong>
 		<ul>
 			<li>FIX: Fix for PHP 5.3 - <a href="https://www.google.co.jp/search?q=php+5.3+split+deprecated">The function split() is deprecated</a> <a href="https://github.com/NucleusCMS/NucleusCMS/commit/c2337ecf883e71f8ad57e3b0609d47434fe1acd8">@c2337ec</a></li>
-			<li>FIX: <a href="https://www.google.co.jp/search?q=mysql+%22table+name%22+%22back+ticks%22">Table name require back-ticks</a> when create table (Fix install error) <a href="https://github.com/NucleusCMS/NucleusCMS/commit/e8cb3e6b14d2937fb0608124342b2aec662d3553">@e8cb3e6</a></li>
+			<li>FIX: <a href="https://www.google.co.jp/search?q=mysql+%22table+name%22+%22back+ticks%22">Table name require wrap by back-ticks</a> when create table (Fix install error) <a href="https://github.com/NucleusCMS/NucleusCMS/commit/e8cb3e6b14d2937fb0608124342b2aec662d3553">@e8cb3e6</a></li>
 			<li>ADD: Put anchors into devdocs/plugins.html <a href="https://github.com/NucleusCMS/NucleusCMS/commit/fc522c464719da92049c83c70fafb311aee9d1c8">@fc522c4</a></li>
 			<li>FIX: Added missing global variable <a href="https://github.com/slightlysome/lmnucleuscms/commit/8a8db7c62744f91b89bb4ab3221c9c8c0d70f873">LMNucleus@8a8db7c</a> (thanks <a href="https://github.com/gRegorLove">@gRegorLove</a>)</li>
 			<li>FIX: Remove <a href="https://www.google.co.jp/search?q=whitespace+DOCTYPE+declaration">whitespace before DOCTYPE declaration</a> <a href="https://github.com/NucleusCMS/NucleusCMS/commit/77917d49554ed170433e656b7fbba6b89a67a8e8">@77917d4</a></li>
@@ -67,13 +68,16 @@
 </div>
 
 <h3>Future plans</h3>
-<p>They are parallel development and support. Stable and Next-type.</p>
-<h4>Version 3.70</h4>
+<p>They are dual development and support. Passive and Positive.</p>
+<h4>Version 3.70(Passive branch)</h4>
 <ul>
-	<li><a href="https://www.google.co.jp/search?q=salted+password+hashing">Salted password hash</a></li>
+	<li>Security Fix: <a href="https://www.google.co.jp/search?q=salted+password+hashing">Salted password hash</a></li>
 	<li><a href="http://forum.nucleuscms.org/viewtopic.php?t=21228">Expand db field-type of item</a> (TEXT-&gt;MEDIUMTEXT)</li>
+	<li>Change default language to english-utf8 at the new install</li>
+	<li>Change default style of admin-css to "contemporary" at the new install</li>
+	<li>Set collation of database table at the new install(It's selectable. utf8_general_ci, utf8_unicode_ci, utf8_danish_ci and etc...)</li>
 </ul>
-<h4>Version 4.00</h4>
+<h4>Version 4.00(Positive branch)</h4>
 <ul>
 	<li>Some plugins fix</li>
 </ul>
